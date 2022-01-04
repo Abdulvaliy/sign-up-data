@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My website</title>
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<form action="{{ url_for('receive_data') }}" autocomplete="off" method="POST">
+<label for="name">Name </label>
+<input type="text" id="name" aria-autocomplete="none" autocomplete="off" placeholder="name" name="username">
+<label for="password">Password</label>
+<input type="password" id="password" placeholder="password" name="password">
+<button>Ok</button>
+</form>
+</center>
+</body>
+</html>
